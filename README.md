@@ -1,40 +1,35 @@
-# SOC + GRC Portfolio
+# SOC / GRC Portfolio - Alabi Oluwafemi
 
-Aspiring SOC Analyst | GRC | Python for Security
+Aspiring SOC Analyst | GRC Analyst | Cybersecurity
 
-This repo shows how I detect attacks in Python and document them like a GRC analyst.
+Hands-on security projects built with Python. Focused on detection, analysis, and incident response.
 
-## What I Built
+## Projects
 
-### 1. SOC Detection Rules - `detection_rules.py`
-Python functions that detect real attacks from logs:
+### Project 1: Detection Rules + CEO Incident Report
+- Wrote detection rules for brute force, malware, and port scans
+- Created a professional incident report for executive leadership
+- Files: `detection_rules.py`, `incident_report_ceo.md`
 
-- `check_impossible_travel()` - Detects CEO login from outside Nigeria = CRITICAL
-- `check_brute_force()` - Detects 500 failed logins = HIGH, Block IP
+### Project 2: Phishing Email Analyzer
+- Analyzes emails for phishing indicators: suspicious links, urgent language, fake senders
+- Scores risk as Low / Medium / High / Critical
+- Folder: `phishing-email-analyzer`
 
-**Concepts Used:** `if`, `and`, `dict`, `function`, `for`
+### Project 3: Password Strength Checker
+- Checks password length, complexity, common passwords, and entropy
+- Gives actionable feedback to improve security
+- Folder: `password-strength-checker`
 
-### 2. GRC Incident Reports - `incident_report_ceo.md`
-Professional incident report format:
-Title, Severity, Summary, IOCs, Impact, Recommendation
+### Project 4: SOC Log Analyzer (Mini-SIEM)
+- Parses server / firewall logs
+- Detects Brute Force, Port Scans, Malware, and Account Compromise
+- Generates a SOC triage report with recommended actions
+- Folder: `log-analyzer`
 
-**Example Incident:** CEO account compromise from Russia at 3:12 AM.
-**IOC:** 185.220.101.4
+## Skills
+- Python | Log Analysis | SIEM Logic | Phishing Analysis | Incident Response | Detection Engineering | GRC
 
-## Skills Demonstrated
-- IOC vs Event vs TTP
-- Risk Assessment
-- SIEM Detection Logic
-- Incident Response: Block, Lock, Reset, Enforce MFA
-- Python for SOC
-
-## How To Run
-```bash
-python detection_rules.py
-git init
-git add .
-git commit -m "Added SOC detection rules + GRC incident report"
-git branch -M main
-git remote add origin
-https://github.com/Alabi-Oluwafemi/soc-grc-portfolio.git
-git push -u origin main
+## Contact
+- GitHub: github.com/Alabi-Oluwafemi
+- Location: Lagos, Nigeria | Open to SOC Analyst / GRC / Intern roles
