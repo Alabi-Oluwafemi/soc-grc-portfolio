@@ -27,6 +27,12 @@ Hands-on security projects built with Python. Focused on detection, analysis, an
 - Generates a SOC triage report with recommended actions
 - Folder: `log-analyzer`
 
+### Project 5: Risk Register for a Fintech (GRC)
+- Built a 20-risk Risk Register in Excel / Google Sheets
+- Scored Likelihood x Impact, mapped to ISO 27001:2022 Annex A controls
+- Defined mitigations, owners, and status for each risk
+- File: `Risk Register - Fintech.xlsx`
+- 
 ## Skills
 - Python | Log Analysis | SIEM Logic | Phishing Analysis | Incident Response | Detection Engineering | GRC
 
@@ -34,8 +40,5 @@ Hands-on security projects built with Python. Focused on detection, analysis, an
 - GitHub: github.com/Alabi-Oluwafemi
 - Location: Lagos, Nigeria | Open to SOC Analyst / GRC / Intern roles
 
-### Project 5: Risk Register for a Fintech (GRC)
-- Built a 20-risk Risk Register in Excel / Google Sheets
-- Scored Likelihood x Impact, mapped to ISO 27001:2022 Annex A controls
 - Defined mitigations, owners, and status for each risk
 - File: `Risk Register - Fintech.xlsx`
